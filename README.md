@@ -17,6 +17,7 @@ You may also see any lint errors in the console.
 To stop NewsHub, press `Ctrl + C` in both terminals to stop the frontend React server (port 3000) and the other to stop the backend Express server (port 5000). 
 
 
+## Additional Information
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
