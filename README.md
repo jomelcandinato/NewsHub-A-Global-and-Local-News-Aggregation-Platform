@@ -11,9 +11,11 @@ You need to open 2 terminals:
 - Terminal 1: In the first terminal, navigate to the backend folder and run `npm start` (or `npm run dev` for development) to start the Express server on port 5000.
 - Terminal 2: In the second terminal, navigate to the frontend folder (likely named "newshub") and run `npm start` to launch the React development server on port 3000—then open your browser to http://localhost:3000 to access NewsHub.
 
-
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+To stop NewsHub, press `Ctrl + C` in both terminals to stop the frontend React server (port 3000) and the other to stop the backend Express server (port 5000). 
+
 
 ### `npm test`
 
