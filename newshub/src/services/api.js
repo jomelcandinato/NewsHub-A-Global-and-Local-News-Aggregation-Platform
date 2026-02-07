@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = process.env.REACT_APP_NEWS_API_KEY || 'pub_0755496150ae44728c2f6498fa4172b5'; 
+const API_KEY = process.env.REACT_APP_NEWS_API_KEY || 'Your_API_Key_here'; 
 const BASE_URL = 'https://newsdata.io/api/1';
 
 class NewsAPI {
@@ -157,4 +157,5 @@ class NewsAPI {
 
 // Create instance and export to fix ESLint warning
 const newsAPI = new NewsAPI();
+
 export default newsAPI;
